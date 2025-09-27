@@ -29,3 +29,6 @@ persistence:
     mountPath: "/images"
     # -- homarr-images optional volumeClaimName to target specific PV
     volumeClaimName: ""
+service:
+  type: NodePort
+  nodePort: 33333
